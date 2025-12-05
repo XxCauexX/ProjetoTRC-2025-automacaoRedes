@@ -4,7 +4,6 @@ body {
     color: white;
 }
 
-
 .hero {
     background: linear-gradient(90deg, rgba(0, 0, 0), rgb(18, 2, 31));
 }
@@ -15,12 +14,6 @@ body {
     font-family: "Courier New", monospace;
     border-radius: 6px;
 }
-
-
-
-/* rgb(47, 18, 75) */
-
-
 
 pre.code-block {
     white-space: pre-wrap;
@@ -61,13 +54,6 @@ button:focus {
     outline: 3px solid rgba(13, 110, 253, 0.18);
     outline-offset: 2px;
 }
-
-
-/* Utilitários adicionais (opcionais) */
-.text-muted {
-    color: #6c757d !important
-}
-
 
 /* Garanta que elementos de código não fiquem muito grandes em telas pequenas */
 .card-code pre {

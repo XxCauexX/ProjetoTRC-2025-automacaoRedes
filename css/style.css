@@ -45,7 +45,7 @@ nav svg:hover {
 }
 
 footer {
-    height: 6vh;
+    min-height: 80px;
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
@@ -53,6 +53,8 @@ footer {
     border-top: solid 1px white;
     flex-wrap: wrap;
     text-align: justify;
+    gap: 10px 20px;
+    padding: 15px 5%;
 }
 
 footer a {
@@ -66,4 +68,22 @@ footer a:hover {
 
 footer p {
     margin: 0;
+    flex-basis: auto;
+}
+
+.text-muted {
+    color: rgb(146, 95, 175)!important;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column; 
+        text-align: center; 
+        align-items: center;
+    }
+
+    footer p {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
 }
