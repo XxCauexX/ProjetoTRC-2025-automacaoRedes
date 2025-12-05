@@ -1,10 +1,11 @@
-
-
-
-
 body {
     background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: white;
+}
+
+.c-destaque {
+    color: rgb(137, 37, 231) !important;
 }
 
 nav {
@@ -20,6 +21,17 @@ nav svg:hover {
     width: 30px;
     height: 30px;
     color: rgb(137, 37, 231);
+}
+
+.botao {
+    background-color: rgb(47, 18, 75);
+    color: white;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background-color: rgb(137, 37, 231);
+    color: white;
 }
 
 .links-menu li a {

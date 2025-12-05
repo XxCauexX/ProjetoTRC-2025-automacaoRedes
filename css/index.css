@@ -1,7 +1,7 @@
 main {
     display: flex;
     justify-content: center;
-
+    color: white;
 }
 
 main section {
@@ -61,4 +61,12 @@ main section {
 
 .link-link:hover .icon-icon{
     display: inline;
+}
+
+.Main {
+    
+}
+
+#section-home {
+
 }
