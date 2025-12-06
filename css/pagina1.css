@@ -1,0 +1,43 @@
+.section-title {
+    color: #d6c4ff;
+    font-size: 1.7rem;
+    border-left: 5px solid #b97aff;
+    padding-left: 10px;
+}
+
+.card-dark {
+    background: white;
+    border: 1px solid #2e2147;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-radius: 10px;
+}
+
+.card-dark:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 18px rgba(185, 122, 255, 0.25);
+}
+
+.card-code {
+    background: #0d0a18;
+    border: 1px solid #3b2f55;
+    color: #e6dbff;
+}
+
+.code-block {
+    padding: 15px;
+    white-space: pre-wrap;
+    color: #e6dbff;
+}
+
+.fade-card {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: fadeInUp 0.7s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

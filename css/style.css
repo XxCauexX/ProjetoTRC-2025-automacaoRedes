@@ -4,9 +4,6 @@ body {
     color: white;
 }
 
-.c-destaque {
-    color: rgb(137, 37, 231) !important;
-}
 
 nav {
     background-color: rgb(47, 18, 75);
@@ -21,6 +18,10 @@ nav svg:hover {
     width: 30px;
     height: 30px;
     color: rgb(137, 37, 231);
+}
+
+.c-destaque {
+    color: rgb(137, 37, 231) !important;
 }
 
 .botao {
@@ -42,6 +43,19 @@ nav svg:hover {
 .links-menu li a:hover {
     font-size: large;
     color: rgb(137, 37, 231);
+}
+
+.text-muted {
+    color: rgb(146, 95, 175)!important;
+}
+
+.badge-feature {
+    background: #eef5ff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
 }
 
 footer {
@@ -71,8 +85,8 @@ footer p {
     flex-basis: auto;
 }
 
-.text-muted {
-    color: rgb(146, 95, 175)!important;
+.hero {
+    background: linear-gradient(90deg, rgba(0, 0, 0), rgb(18, 2, 31));
 }
 
 @media (max-width: 768px) {
